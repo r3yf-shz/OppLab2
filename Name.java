@@ -19,8 +19,6 @@ public class Name {
         return hours * 60 + minutes;
     }
 
-	//Добавил decreaseTime
-	
     public void decreaseTime(int minutesToDecrease) {
         this.minutes -= minutesToDecrease;
         if (this.minutes < 0) {
