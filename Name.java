@@ -35,6 +35,8 @@ public class Name {
         return "Time: " + hours + ":" + minutes + ":" + seconds;
     }
 
+	//Добавил геттеры и сетторы
+	
     public int getHours() {
         return hours;
     }
