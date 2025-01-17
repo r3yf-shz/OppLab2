@@ -6,6 +6,8 @@ public class ChildName extends Name {
         this.operator = operator;
     }
 
+	//Добавил isPrivilegedTime
+	
     public boolean isPrivilegedTime() {
         return getHours() >= 0 && getHours() < 8;
     }
